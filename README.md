@@ -23,7 +23,7 @@ sudo chmod +x ./eps2pdf.sh
 If you want to use the python script to generate the eps by yourself, then 
 
 ```
-python pip install -r requirements.txt 
+pip install -r requirements.txt 
 python generate_eps.py
 ```
 
