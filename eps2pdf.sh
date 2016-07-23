@@ -32,6 +32,8 @@ else
         echo "Cannot find perl on your Mac, trying to install it"
         $INSTALL perl
     fi
+    $INSTALL ghostscript
+    chmod +x epstopdf.pl
     EPSTOPDF='./epstopdf.pl'
 fi
 
